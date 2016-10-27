@@ -1,0 +1,34 @@
+/* PALETTE
+---------------------------- */
+
+.palette {
+  /*display: flex;*/
+  display: none;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.palette[data-position = "bottom"] {
+  top: auto;
+  bottom: 0;
+}
+
+.page--state-show .palette {
+  display: flex;
+}
+
+.palette LI {
+  flex-grow: 1;
+  padding: .25rem;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+  color: hsla(0, 0%, 0%, .75);
+}
