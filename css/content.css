@@ -11,6 +11,7 @@
   left: 0;
   width: 100%;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
@@ -27,6 +28,7 @@
 .palette LI {
   flex-grow: 1;
   padding: .25rem;
+  list-style: none;
   font-size: 14px;
   text-align: center;
   font-style: italic;
