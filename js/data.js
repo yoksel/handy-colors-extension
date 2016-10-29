@@ -72,15 +72,29 @@ palettes[ palettes.length ] = {
 };
 
 palettes[ palettes.length ] = {
+  title: 'Mossy powder',
+  author: {
+    twitter: 'yoksel_en',
+  },
+  colors: [
+    'rosybrown',
+    'peachpuff',
+    'lightgoldenrodyellow',
+    'khaki',
+    'darkkhaki',
+  ],
+};
+
+palettes[ palettes.length ] = {
   title: 'Pale colors',
   author: {
     github: 'yoksel'
   },
   colors: [
+    'rosybrown',
     'palegoldenrod',
-    'paleturquoise',
-    'palegreen',
-    'palevioletred',
+    'darkseagreen',
+    'cadetblue',
   ],
 };
 
@@ -109,20 +123,6 @@ palettes[ palettes.length ] = {
     'palegoldenrod',
     'cadetblue',
     'teal',
-  ],
-};
-
-palettes[ palettes.length ] = {
-  title: 'Mossy powder',
-  author: {
-    twitter: 'yoksel_en',
-  },
-  colors: [
-    'rosybrown',
-    'peachpuff',
-    'lightgoldenrodyellow',
-    'khaki',
-    'darkkhaki',
   ],
 };
 
@@ -239,6 +239,21 @@ palettes[ palettes.length ] = {
 };
 
 palettes[ palettes.length ] = {
+  title: 'Bright III',
+  author: {
+    twitter: 'yoksel_en',
+  },
+  colors: [
+    'crimson',
+    'tomato',
+    'gold',
+    'yellowgreen',
+    'teal',
+    'darkslateblue',
+  ],
+};
+
+palettes[ palettes.length ] = {
   title: 'Sea I',
   author: {
     twitter: 'yoksel_en',
@@ -316,6 +331,19 @@ palettes[ palettes.length ] = {
   colors: [
     'indianred',
     'lightcoral',
+    'lightpink',
+    'mistyrose',
+  ],
+};
+
+palettes[ palettes.length ] = {
+  title: 'Pink III',
+  author: {
+    twitter: 'yoksel_en',
+  },
+  colors: [
+    'indianred',
+    'lightcoral',
     'lightsalmon',
     'peachpuff',
     'blanchedalmond',
@@ -333,6 +361,20 @@ palettes[ palettes.length ] = {
     'darkorange',
     'sandybrown',
     'navajowhite',
+  ],
+};
+
+palettes[ palettes.length ] = {
+  title: 'Orange II',
+  author: {
+    twitter: 'yoksel_en'
+  },
+  colors: [
+    'tomato',
+    'coral',
+    'lightsalmon',
+    'peachpuff',
+    'cornsilk',
   ],
 };
 
