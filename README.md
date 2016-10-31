@@ -1,14 +1,14 @@
-# "Handy colors" extension for Chrome
+# Handy colors (chrome extension)
 
 ## Usage
 
-Upload extension on page `chrome://extensions/` using button "Load unpacked extension".
+Upload folder with the extension on page `chrome://extensions/` using button "Load unpacked extension".
 
 ## About
 
-This extension is not in the Crome Web Store, this repository is a source code of extension.
+This extension is not in the Crome Web Store, this repository is a source code of the extension.
 
-You can not only download and use it, you can more: read and modify the code as you need, remove needless palettes and add your favorites.
+You can not only download and use it, you can more:  modify the code as you need, remove needless palettes and add your favorites.
 
 Enjoy!
 
