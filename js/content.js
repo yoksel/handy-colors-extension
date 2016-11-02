@@ -1,6 +1,6 @@
 var doc = document;
 var paletteElem = doc.createElement('ul');
-paletteElem.classList.add('palette');
+paletteElem.classList.add('hc-palette');
 doc.body.appendChild( paletteElem );
 
 var currents = {
@@ -64,7 +64,7 @@ setPosition();
 
 function getBodyClass( key, item ) {
     item = item ? item : currents[ key ];
-    currents.bodyClass[ key ] = 'page--' + key + '-' + item;
+    currents.bodyClass[ key ] = 'hc-page--' + key + '-' + item;
     return currents.bodyClass[ key ];
 }
 
@@ -113,7 +113,7 @@ function addClass( key ) {
 
 function setPalette() {
   var newUl = doc.createElement('ul');
-  newUl.classList.add('palette');
+  newUl.classList.add('hc-palette');
 
   if ( currents.colors.length === 0 ) {
     return;

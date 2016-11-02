@@ -1,7 +1,7 @@
 /* PALETTE
 ---------------------------- */
 
-.palette {
+.hc-palette {
   /*display: flex;*/
   display: none;
 
@@ -16,16 +16,16 @@
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.palette[data-position = "bottom"] {
+.hc-palette[data-position = "bottom"] {
   top: auto;
   bottom: 0;
 }
 
-.page--state-show .palette {
+.hc-page--state-show .hc-palette {
   display: flex;
 }
 
-.palette LI {
+.hc-palette LI {
   flex-grow: 1;
   padding: .25rem;
   list-style: none;
